@@ -1,0 +1,83 @@
+.top-container {
+    background-color: #072c5d;
+}
+
+.hero-text {
+    font-size: 2.5rem;
+}
+
+.pfp {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+    border: solid #202020 10px;
+}
+
+.icon-square {
+    width: 13rem;
+    height: 13rem;
+    border-radius: 50%;
+  }
+
+.hero-pfp {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.marketing .col-lg-4 {
+    margin-top: 3rem;
+    padding-left:1.5rem;
+    text-align: center;
+}
+
+.heading {
+    font-family: Georgia, serif;
+    font-size: 30px;
+}
+
+.work-text {
+    font-size:1.5rem;
+}
+
+.carousel img {
+    width:max-content;
+    height:max-content;
+}
+
+.carousel-item > img {
+    filter:blur(7px);
+}
+
+.carousel-caption {
+    color:#FF204E !important;
+    font-size: 30px;
+    padding-bottom: 320px;
+}
+
+.carousel-caption h5 {
+    color:#A0153E;
+    font-family: Georgia, serif;
+    font-size: 80px;
+}
+
+.social svg {
+    height:7rem;
+    width:7rem;
+    margin-bottom: 2rem;
+}
+
+.social a{
+    font-size: 30px;
+}
+
+@media (max-width:1000px) {
+    .carousel-caption{padding-bottom: 0;}
+}
